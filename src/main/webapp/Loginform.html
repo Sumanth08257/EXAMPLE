@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LogIn</title>
+</head>
+<body>
+	<table border="1">
+
+		<form action="log">
+			<tr>
+				<td><label for="fn">Enter the first name:</label></td>
+				<td><input name="firstname" type="text" id="fn"></td>
+			</tr>
+			<tr>
+				<td><label for="ln">Enter the last name:</label></td>
+				<td><input name="lastname" type="text" id="ln"></td>
+			</tr>
+			<tr>
+				<td><label for="usnn">Enter the USN:</label></td>
+				<td><input name="usn" type="text" id="usnn"></td>
+			</tr>
+			<tr>
+				<td><label for="passw">Enter the password:</label></td>
+				<td><input type="password" name="pass" id="passw"></td>
+			</tr>
+			<tr>
+				<td><label for="gender">Select gender</label></td>
+				<td><label for="male">Male</label> <input type="radio"
+					name="gen" id="male" value="Male"> <label for="female">Female</label> <input
+					type="radio" name="gen" id="female" value="Female"> <label for="others">Others</label>
+					<input type="radio" name="gen" id="others" value="Others"></td>
+			<tr>
+				<td><label for="lang">Select one language</label></td>
+				<td><select name="lang" id="lang">
+						<option>---</option>
+						<option>JAVA</option>
+						<option>C</option>
+						<option>HTML</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><input type="submit">&nbsp&nbsp&nbsp&nbsp<input
+					type="reset"></td>
+
+			</tr>
+
+		</form>
+
+	</table>
+
+</body>
+</html>
